@@ -3,44 +3,49 @@
 
 ## 1. Downloading the Project to your workspace
 
-- clone it to your repository
+### clone it to your repository:
 
 Windows:
 
 ```bash
-git clone https://github.com/Mallinath-cs/Portfolio.git
+git clone https://github.com/Mallinath-cs/Portfolio
 ```
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+sudo git clone https://github.com/Mallinath-cs/Portfolio
 ```
-cd Portfolio
+Then change the directory to:
 
-- download it directly and open the folder through VS Code editor
+```bash
+cd Portfolio
+```
+###                           or
+### Download it directly and open the folder through VS Code editor
 
 ## 2. Setup (Just run the following commands in the vs code terminal)
 
-- npm install
-
+```bash
+npm install
+```
 To view website on both your pc and mobile you have to have both devices connected to the same wifi network and run the following command in terminal
 
-- npm run dev -- --host
-
+```bash
+npm run dev -- --host
+```
 It will create two links local and network, open the local link to view on desktop and the network link on your phone to view the website on mobile
 
 
 ## 3. Things you need to add or change before using it ,as i have added placeholders for each of the items:
-(Note: 
-    1. you can navigate by using the search in vs code editor or by pressing ctrl + shift + f
-    2. Just copy and paste the names (placeholder1, placeholder2)
-)
+### Note: 
+1. you can navigate by using the search in vs code editor or by pressing ctrl + shift + f 
+2. Just copy and paste the names (placeholder1, placeholder2) in the search input area for easy navigation
 
-## /*Navbar*/
+## *Navbar*
 - Your name "placeholder1"
 
-## /*Hero Section*/
+## *Hero Section*
 - Your name "placeholder2"
 (The below details are one below each other to the placeholder2 until placeholder5)
 - Your job role "placeholder3" 
@@ -62,7 +67,7 @@ It will create two links local and network, open the local link to view on deskt
     - replace "placeholder13" with href = {your_file_name}
     - replace "placeholder14" with what you want the file name of resume to be when someone downloads it (something like yourname_resume)
 
-## /*About Section*/
+## *About Section*
 - replace "placeholder15" with things about yourself. In the about me paragraph i have hidden the link so add things about yourself before and after the code without deleting the following
 {' '}..code...{' '}
 - Now if you want to add technical skills which are not from the frontend technologies(i.e reactjs, javascript etc..) you have a bit of work to do.
@@ -86,7 +91,7 @@ It will create two links local and network, open the local link to view on deskt
     - you will learn about isUsed1, isUsed2, isUsed3 in the next section whereas the rotate is used to rotate the static png image of my react icon because i couldnt find any free ones which made the react icon rotate by default so i had to rotate it using css, you can use this code to rotate the static png to rotate too
 
 
-## /*Projects section*/
+## *Projects section*
 
 - Before starting the code is designed in such a way that anything more than 3 projects added it will look like the project is out of bounds on the y-axis so be careful and 3 projects.
 
