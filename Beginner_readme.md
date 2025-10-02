@@ -3,19 +3,12 @@
 
 ## 1. Downloading the Project to your workspace
 
-### clone it to your repository:
-
-Windows:
+### Clone this repository:
 
 ```bash
-git clone https://github.com/Mallinath-cs/Portfolio
+git clone https://github.com/Mallinath-cs/Portfolio.git
 ```
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/Mallinath-cs/Portfolio
-```
 Then change the directory to:
 
 ```bash
@@ -43,13 +36,13 @@ It will create two links local and network, open the local link to view on deskt
 2. Just copy and paste the names (placeholder1, placeholder2) in the search input area for easy navigation
 
 ## *Navbar*
-- Your name "placeholder1"
+- Add your name "placeholder1"
 
 ## *Hero Section*
-- Your name "placeholder2"
+- Add Your name "placeholder2"
 (The below details are one below each other to the placeholder2 until placeholder5)
-- Your job role "placeholder3" 
-- Your job details "placeholder4" & "placeholder5"
+- Add your job role "placeholder3" 
+- Add your job details "placeholder4" & "placeholder5"
 - Add your GitHub link "palceholder6"
 - Add your Linkedin link "placeholder7"
 - Add your email like this:
@@ -61,8 +54,9 @@ It will create two links local and network, open the local link to view on deskt
     Preview it on your desktop or mobile and change it accordingly
 - Add your resume like this:
     - First paste your resume file in assets folder
-    - Then change the import statement at the top of the hero.jsx file with this import your_file_name from '../../assets/your_file_name.file_type'
-        where - your_file_name is your file name
+    - Then change the import statement at the top of the hero.jsx file with this:
+    - import your_file_name from '../../assets/your_file_name.file_type'
+    - where - your_file_name is your file name
               - file_type (pdf,word etc..)
     - replace "placeholder13" with href = {your_file_name}
     - replace "placeholder14" with what you want the file name of resume to be when someone downloads it (something like yourname_resume)
@@ -128,7 +122,7 @@ It will create two links local and network, open the local link to view on deskt
 placeholder27, placeholder28, placeholder29
 
 
-## /*Contact*/
+## *Contact*
 
 - to make contact form send the details over to your mail, you need to have web3form's access key
 - to get the access key goto this website https://web3forms.com/
@@ -137,7 +131,7 @@ placeholder27, placeholder28, placeholder29
 
 - there's also a mini easter game in this section in which toggling the button will make you to find the hidden item within the webpage. The item is a link, to change what you want other to see when clicking that link, goto "placeholder31" and add as many links as you want
 
-## /*Footer*/
+## *Footer*
 - replace "placeholder32" with your Discord profile link
 - replace "placeholder33" with your X link
 - repalce "placeholder34" with your Instagram link
