@@ -62,7 +62,7 @@ It will create two links local and network, open the local link to view on deskt
 (The below details are one below each other to the placeholder2 until placeholder5)
 - Add your job role "placeholder3" 
 - Add your job details "placeholder4" & "placeholder5"
-- Add your GitHub link "palceholder6"
+- Add your GitHub link "placeholder6"
 - Add your Linkedin link "placeholder7"
 - Add your email like this:
     - replace "placeholder8" with your email
