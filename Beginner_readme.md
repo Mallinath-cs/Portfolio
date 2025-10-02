@@ -1,9 +1,27 @@
 
 # Please follow the above Steps in order:
 
-## 1. Downloading the Project to your workspace
+## 1. Before Setup install the following:
 
-### Clone this repository:
+- git from https://git-scm.com/downloads
+- Node.js from https://nodejs.org/en/download
+- Check if Node.js has been installed correctly by using following commands in terminal or command prompt:
+  
+```bash
+npm -v
+```
+```bash
+node -v
+```
+- If you are getting an error stating running scripts is disabled on the system run this command in terminal or command prompt:
+
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+## 2. Downloading the Project to your workspace
+
+### Clone this repository by using this code in the terminal of the vs code editor:
 
 ```bash
 git clone https://github.com/Mallinath-cs/Portfolio.git
@@ -17,7 +35,8 @@ cd Portfolio
 ###                           or
 ### Download it directly and open the folder through VS Code editor
 
-## 2. Setup (Just run the following commands in the vs code terminal)
+
+## 3. Setup (Just run the following commands in the vs code terminal)
 
 ```bash
 npm install
@@ -30,7 +49,7 @@ npm run dev -- --host
 It will create two links local and network, open the local link to view on desktop and the network link on your phone to view the website on mobile
 
 
-## 3. Things you need to add or change before using it ,as i have added placeholders for each of the items:
+## 4. Things you need to add or change before using it ,as i have added placeholders for each of the items:
 ### Note: 
 1. you can navigate by using the search in vs code editor or by pressing `ctrl + shift + f `
 2. Just copy and paste the names (placeholder1, placeholder2) in the search input area for easy navigation
