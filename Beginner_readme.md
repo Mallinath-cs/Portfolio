@@ -22,7 +22,7 @@ cd Portfolio
 ```bash
 npm install
 ```
-To view website on both your pc and mobile you have to have both devices connected to the same wifi network and run the following command in terminal
+To view website both on your pc and mobile you have to connect both devices to the same wifi network and run the following command in terminal
 
 ```bash
 npm run dev -- --host
@@ -32,7 +32,7 @@ It will create two links local and network, open the local link to view on deskt
 
 ## 3. Things you need to add or change before using it ,as i have added placeholders for each of the items:
 ### Note: 
-1. you can navigate by using the search in vs code editor or by pressing ctrl + shift + f 
+1. you can navigate by using the search in vs code editor or by pressing `ctrl + shift + f `
 2. Just copy and paste the names (placeholder1, placeholder2) in the search input area for easy navigation
 
 ## *Navbar*
@@ -54,21 +54,21 @@ It will create two links local and network, open the local link to view on deskt
     Preview it on your desktop or mobile and change it accordingly
 - Add your resume like this:
     - First paste your resume file in assets folder
-    - Then change the import statement at the top of the hero.jsx file with this:
-    - import your_file_name from '../../assets/your_file_name.file_type'
-    - where - your_file_name is your file name
-              - file_type (pdf,word etc..)
-    - replace "placeholder13" with href = {your_file_name}
+    - Then change the import statement at the top of the hero.jsx file with this: `import your_file_name from '../../assets/your_file_name.file_type'`
+    - where
+    - your_file_name is your file name
+    - file_type (pdf,word etc..)
+    - replace "placeholder13" with `href = {your_file_name}`
     - replace "placeholder14" with what you want the file name of resume to be when someone downloads it (something like yourname_resume)
 
 ## *About Section*
 - replace "placeholder15" with things about yourself. In the about me paragraph i have hidden the link so add things about yourself before and after the code without deleting the following
 {' '}..code...{' '}
 - Now if you want to add technical skills which are not from the frontend technologies(i.e reactjs, javascript etc..) you have a bit of work to do.
-    - Firstly open skills-data.js which is within the src/components/skills-data.js
-    - You can add images/gifs of your tech skills within src/assests/skills-icon folder
+    - Firstly open skills-data.js which is within the `src/components/skills-data.js`
+    - You can add images/gifs of your tech skills within `src/assests/skills-icon` folder
     -Then import the images/gifs to the skills-data.js by using the the following code:
-    import your_file_name from '../assets/skills-icon/your_file_name.file_type'
+    import your_file_name from `'../assets/skills-icon/your_file_name.file_type'`
         where - your_file_name is your file name
                 - file_type (png,gif etc..)
     -now to show the skills on the website do this:
@@ -87,9 +87,9 @@ It will create two links local and network, open the local link to view on deskt
 
 ## *Projects section*
 
-- Before starting the code is designed in such a way that anything more than 3 projects added it will look like the project is out of bounds on the y-axis so be careful and 3 projects.
+- Before starting the code is designed in such a way that anything more than 3 projects added it will look like the project card is out of bounds on the y-axis so be careful and use only 3 projects.
 
-- add your project's demo image within the public folder and replace the "placeholder16 , placeholder17, placeholder18" with this: ./your_file_name.filetype
+- add your project's demo image within the public folder and replace the "placeholder16 , placeholder17, placeholder18" with this: `./your_file_name.filetype`
 
 - add your project's name within the following placeholder's in the order you have added images
 "placeholder19 , placeholder20 , placeholder21" with your project name
@@ -99,20 +99,20 @@ It will create two links local and network, open the local link to view on deskt
 
 - if you want to use the dino animation just like my portfolio stating "Exciting new projects are on the way…" just remove the placeholder25 section
 
-{/* placeholder25 from here*/} <-remove this
+`{/* placeholder25 from here*/}` <-remove this
 
-...code...  <-remove this
+`...code...`  <-remove this
 
-{/* Till here */} <- remove this
+`{/* Till here */}` <- remove this
 
 
 - and remove comments from "placeholder26". 
 
-{/*placeholder26  <-remove this
+`{/*placeholder26 ` <-remove this
 
-....code....    <-  **don't remove this**
+`....code....`    <-  **don't remove this**
 
-*/}  <-remove this
+`*/}`  <-remove this
 
 
 - also to show what skills you have used for each project do the following:
