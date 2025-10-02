@@ -1,0 +1,12 @@
+.spotlight{
+    position: fixed;
+    inset: 0;
+    background: black;
+    pointer-events: none;
+    z-index: 100;
+}
+@media (max-width: 480px) {
+    .spotlight{
+        display: none;
+    }
+}

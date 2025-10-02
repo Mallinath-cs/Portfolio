@@ -1,0 +1,225 @@
+.contact{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+}
+.contact-heading{
+    justify-content: center;
+    font-size: 2rem;
+    font-family:'Montserrat';
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 30px;
+}
+.contact-heading::after{
+    content: "";
+    display: block;
+    width: 60%;         
+    height: 3px;         
+    background: black; 
+    margin: 5px auto 0;  
+    border-radius: 2px;
+}
+form{
+    max-width: 600px;
+    width: 100%;
+    padding: 0px 25px 20px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.07);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+form .input-box{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.input-box .field{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    margin-top: 8px;
+}
+.input-box .field.mess{
+    height: 170px;
+    resize: none;
+}
+form button{
+    display: block;
+    margin: 0 auto;
+    min-width: 25%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+    will-change: transform; 
+}
+form button:hover{
+    transform: scale(1.1);
+}
+
+.easter {
+  position: absolute;
+  bottom: 10px;
+  padding: 5px;
+  background: rgb(255, 255, 245);
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  color: black;
+  z-index: 1;
+}
+
+.easter::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle), grey, rgba(255, 255, 255, 0.7));
+  animation: spin-easter 5s linear infinite;
+  z-index: -1; 
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); 
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 3px; 
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin-easter {
+  to {
+    --angle: 360deg;
+  }
+}
+
+
+.cursor{
+    position: fixed;
+    inset: 0;
+    background: black;
+    pointer-events: none;
+    z-index: 100;
+}
+.text-box{
+    gap: 10px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1300;
+}
+.text-box span{
+    color: white;
+}
+.text-box{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    color: rgb(0, 229, 255);
+    font-weight: 400;   
+}
+.hint-text{
+    color: white;
+    cursor: pointer;
+}
+.dark-mode form{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.1); 
+}
+.dark-mode .contact{
+    background: linear-gradient(to right, #141e30, #243b55);
+    box-shadow: none;
+}
+.dark-mode .contact-heading::after{
+    background: white;
+}
+.dark-mode .contact-heading{
+    color: hsla(0, 0%, 99%, 0.858);
+}
+.dark-mode .input-box .field{
+    border: 2px solid rgba(255, 255, 255, 0.1); 
+    color: white;
+}
+.dark-mode label{
+    color: hsla(0, 0%, 99%, 0.858);
+}
+.dark-mode .easter{
+    background:  #928dab; 
+    color: white; 
+}
+@media (max-width: 1300px) {
+     .cursor{
+        display: none;
+    }
+    .text-box{
+        display: none;
+    }
+    .easter{
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .contact{
+        width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin: 0;
+    }
+    .cursor{
+        display: none;
+    }
+    .text-box{
+        display: none;
+    }
+    .easter{
+        display: none;
+    }
+    .contact{
+        background: linear-gradient(to right, #C9D6FF, #E2E2E2);
+    }
+
+    form{
+        margin-top: 15%;
+    }
+    .dark-mode .contact{
+        background: linear-gradient(to right, #141e30, #243b55);
+    }
+    .dark-mode form{
+        background: none;
+        background-color: rgba(255, 255, 255, 0.07);
+    }
+    
+}
