@@ -1,6 +1,4 @@
--------------------------------------------
-BEGINNER'S GUIDE
--------------------------------------------
+
 # Please follow the above Steps in order:
 
 ## 1. Downloading the Project to your workspace
