@@ -2,9 +2,9 @@
 <h3 align="center">A modern, responsive, and minimal portfolio website featuring smooth animations and an interactive Easter egg game (available on desktop only).</h3>
 
 ### Built with 
-- React.js  
-- Framer Motion for smooth animations  
-- Lenis scroll for buttery-smooth page scrolling
+- React.js ,JavScript ,Html , CSS. 
+- Framer Motion for smooth animations.  
+- Lenis scroll for buttery-smooth page scrolling.
 <p align="center">
   🔗 <a href="https://mallinath-portfolio.netlify.app/" target="_blank">Live Demo</a>
 </p>
@@ -71,3 +71,9 @@ Portfolio/
 ```
 ## Customization Guide
 Please refer to Beginner_readme.md to configure the website according to your profile
+
+
+<h4 align="center">Thanks for exploring this portfolio project.</h4>
+<h4 align="center">Your interest and support mean a lot — feel free to fork, customize, and make it your own! :)</h4>
+
+
