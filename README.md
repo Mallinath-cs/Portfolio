@@ -1,5 +1,5 @@
 <h1 align="center">Portfolio Website</h1>
-<h3 align="center">A modern, minimal and aesthetic portfolio website with an easter egg game(available only on desktop)</h3>
+<h3 align="center">A modern, responsive, and minimal portfolio website featuring smooth animations and an interactive Easter egg game (available on desktop only).</h3>
 
 ### Built with 
 - React.js  
@@ -69,3 +69,5 @@ Portfolio/
 ├── package.json
 └── README.md
 ```
+## Customization Guide
+Please refer to Beginner_readme.md to configure the website according to your profile
