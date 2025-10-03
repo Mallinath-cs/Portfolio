@@ -1,5 +1,5 @@
 <h1 align="center">Portfolio Website</h1>
-<h3 align="center">A modern, minimal and aesthetic portfolio website with an easter egg game(only available on desktop)</h3>
+<h3 align="center">A modern, minimal and aesthetic portfolio website with an easter egg game(available only on desktop)</h3>
 
 ### Built with 
 - React.js  
