@@ -53,9 +53,9 @@ Portfolio/
 │ │ └── SpotLightOverlay/
 │ │       └── SpotLightOverlay.jsx
 │ │       └── SpotLightOverlay.css
-│ ├── BearAnimation.jsx
-│ ├── DinoLoadingAnimation.jsx
-│ ├── Skills-data.js
+│ │ └──  BearAnimation.jsx
+│ │ └──  DinoLoadingAnimation.jsx
+│ │ └──  Skills-data.js
 │ ├── Pages/
 │ │     └── Home/
 │ │          └── Home.jsx
