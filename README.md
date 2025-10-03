@@ -12,7 +12,7 @@
 
 ## Prerequisites
 - Download <a href="https://git-scm.com/downloads" target="_blank">Git</a>
-- Download <a href="https://nodejs.org/en/download" target="_blank">Node.js</a> (Any errors while installing packages please refer to Beginner's_readme.md)
+- Download <a href="https://nodejs.org/en/download" target="_blank">Node.js</a> (Any errors while installing packages please refer to Beginner_readme.md)
 
 ## Installation
 ```bash
