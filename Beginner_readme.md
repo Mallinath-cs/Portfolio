@@ -65,7 +65,7 @@ It will create two links local and network, open the local link to view on deskt
 - Add your Linkedin link "placeholder7"
 - Add your email like this:
     - replace "placeholder8" with your email
-    - replace "placeholder9" which is the subject shown to people when someone clicks on email icon, Add something like Portfolio or change it to your needs.
+    - replace "placeholder9" which is the subject of the mail shown to people when someone clicks on mail icon, Add something like Portfolio or change it to your needs.
     - replace "placeholder10" which is the continuation of subject.
     (Note: %20 is just a code to add space inbetween the words)
     - replace "placeholder11 & placeholder12" with your body you want to to show to the people
