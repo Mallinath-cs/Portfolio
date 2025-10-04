@@ -17,6 +17,7 @@
     font-weight: 400;
     display: inline-block;
     padding-top: 30px;
+    user-select: none;
 }
 .contact-heading::after{
     content: "";
@@ -43,6 +44,9 @@ form .input-box{
     font-size: 20px;
     margin-top: 20px;
 }
+form .input-box label{
+    user-select: none;
+}
 .input-box .field{
     box-sizing: border-box;
     width: 100%;
@@ -56,6 +60,7 @@ form .input-box{
     color: #333;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     margin-top: 8px;
+    user-select: all;
 }
 .input-box .field.mess{
     height: 170px;
@@ -73,6 +78,7 @@ form button{
     margin-top: 10px;
     transition: transform 0.3s ease;
     will-change: transform; 
+    user-select: none;
 }
 form button:hover{
     transform: scale(1.1);
@@ -89,6 +95,7 @@ form button:hover{
   font-size: 1.3rem;
   color: black;
   z-index: 1;
+  user-select: none;
 }
 
 .easter::before {
@@ -116,7 +123,6 @@ form button:hover{
     --angle: 360deg;
   }
 }
-
 
 .cursor{
     position: fixed;
@@ -150,10 +156,12 @@ form button:hover{
     align-items: center;
     color: rgb(0, 229, 255);
     font-weight: 400;   
+    user-select: none;
 }
 .hint-text{
     color: white;
     cursor: pointer;
+    user-select: none;
 }
 .dark-mode form{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);

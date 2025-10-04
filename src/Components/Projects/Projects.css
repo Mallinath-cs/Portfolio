@@ -18,6 +18,7 @@
     margin-top: 40px;
     position: relative;
     display: inline-block; 
+    user-select: none;
 }
 .project-heading::after{
     content: "";
@@ -49,21 +50,23 @@
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    
 }
 .project-box img{
     height: auto;
     width: 100%;
     border-radius: 10px;
+    user-select: none;
 }
 .img-box{ 
     position: relative;
 }
 .netflix-dark-img{
     position: relative;
-    height: 200px;
+    height: 200px
 }
 .img-box .portfolio-light-img{
+    padding-top: 25px;
+    padding-bottom: 30px;
     background: rgba(255, 255, 255, 0.731);
 }
 .img-box .github-dark-img{

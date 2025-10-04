@@ -67,6 +67,7 @@ body::before {
 .navbar-right {
   display: flex;
   gap: 10px;
+  user-select: none;
 }
 
 .nav-list {
@@ -81,7 +82,21 @@ body::before {
 .nav-list li {
   cursor: pointer;
 }
-
+.nav-list li.active {
+  position: relative;
+}
+.nav-list li.active::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 3px;
+  background: black;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
 /* Dark mode switch */
 .dark-mode-toggle-container {
   display: flex;
@@ -204,7 +219,9 @@ body.dark-mode::before {
 .dark-mode #nav-icon3 span {
   background: rgb(173, 173, 173);
 }
-
+.dark-mode .nav-list li.active::before {
+  background: white;
+}
 .dark-mode .scroll-bar {
   background: #ffffff80;
 }

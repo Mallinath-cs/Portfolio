@@ -16,6 +16,24 @@ const Navbar = ({ sectionRefs }) => {
   const navRef = useRef(null); 
   const [navHeight, setNavHeight] = useState(0);
   const { scrollYProgress } = useScroll();
+  const [activeSection, setActiveSection] = useState('Home');
+
+  useEffect(() => {
+  const handleScroll2 = () => {
+    const fromTop = window.scrollY + navHeight + 50;
+    for (const section of sections) {
+      const el = sectionRefs[section.id]?.current;
+      if (
+        el.offsetTop <= fromTop &&
+        el.offsetTop + el.offsetHeight > fromTop
+      ) {
+        setActiveSection(section.id);
+      }
+    }
+  };
+    window.addEventListener("scroll", handleScroll2);
+    return () => window.removeEventListener("scroll", handleScroll2);
+  }, [sectionRefs, navHeight]);
 
   useEffect(() => {
     const handleMyScroll = () => {
@@ -84,7 +102,7 @@ const Navbar = ({ sectionRefs }) => {
           {sections.map((section) => (
             <motion.li
               key={section.id}
-              whileHover={{ scale: 1.2 }}
+              className={activeSection === section.id ? "active" : ""}
               onClick={() => {
                 handleScroll(section.id);
                 setOpen(false);

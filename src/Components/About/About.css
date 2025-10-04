@@ -15,6 +15,7 @@
     margin-top: 40px;
     display: inline-block; 
     color: black; 
+    user-select: none;
 }
 .about-heading::after{
     content: "";
@@ -46,6 +47,7 @@
   gap: 2px;
   font-size: 1.8rem;
   margin-top: 1rem;
+  user-select: none;
 }
 .letter{
   display: inline-block;  
@@ -75,6 +77,7 @@
   margin-right: 5px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.459);
+  user-select: none;
 }
 .skill-img {
   width: 32px;

@@ -74,6 +74,7 @@
 .socials {
     padding: 20px;
     display: flex;
+    user-select: none;
 }
 .socials ul{
     display: flex;
@@ -92,6 +93,7 @@
 .credit-title{
     font-size: 1.1rem;
     font-weight: normal;
+    user-select: none;
 }
 .credits {
   display: flex;
@@ -110,6 +112,7 @@
 .icons-copyright h4, .animations-copyright h4, .background-copyright h4 {
   padding-bottom: 10px;
   font-weight: bold;
+  user-select: none;
 }
 
 .icons-copyright ul, .animations-copyright ul, .background-copyright ul {
@@ -152,6 +155,7 @@
 }
 .my-copyright{
     margin-bottom: 10px;
+    user-select: none;
 }
 
 .dark-mode .svgIcon path{

@@ -33,6 +33,7 @@
   margin-top: 10px;
   margin-left: 4px;
   gap: 15px;
+  user-select: none;
 }
 .social-buttons button{
   display: absolute;
@@ -105,6 +106,7 @@
   background-color: #0a66c2;
   padding-top: 2px;
   overflow-x: hidden;
+  user-select: none;
 }
 
 .sign {
@@ -162,6 +164,7 @@
   border-width: 20px 30px 15px 30px;
   border-color: #3760C9 #96DDFC #96DDFC #36BBF7;
   cursor: pointer;
+  user-select: none;
 }
 
 /* Resume button */
@@ -184,6 +187,7 @@
   border: 1px solid #17795E;
   background-color: #209978;
   overflow-x: hidden;
+  user-select: none;
 }
 
 .resume-button, .resume-button__icon, .resume-button__text {
