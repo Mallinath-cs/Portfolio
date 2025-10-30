@@ -78,7 +78,7 @@ const Contact = ( {sectionRef, easterEggMode, setEasterEggMode} ) => {
             <motion.label variants={item}>Message</motion.label>
             <motion.textarea variants={item} name="message" className='field mess' placeholder='Enter your message' required></motion.textarea>
         </div>
-        <motion.button variants={item} type='submit'>Submit</motion.button>
+        <motion.button className='submit-button' variants={item} type='submit'>Submit</motion.button>
       </form>
 
       <div className="easter" onClick={() => setEasterEggMode(prev => !prev)}>
