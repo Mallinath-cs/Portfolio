@@ -264,9 +264,6 @@
 .dark-mode .hero-left{
   color: rgba(255, 255, 255, 0.422);
 }
-.dark-mode .BG{
-  background: rgba(128, 128, 128, 0.161);
-}
 .dark-mode .hero-right{
   box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.591),
     10px 10px 20px rgba(245, 234, 234, 0.2);
