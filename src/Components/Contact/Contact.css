@@ -83,7 +83,11 @@ form button{
 form button:hover{
     transform: scale(1.1);
 }
-
+.submit-button{
+    border: 1px solid rgba(0, 0, 0, 0.44);
+    color: black;
+    background: rgba(255, 255, 255, 0.434);
+}
 .easter {
   position: absolute;
   bottom: 10px;
@@ -202,6 +206,11 @@ form button:hover{
 }
 .dark-mode label{
     color: hsla(0, 0%, 99%, 0.858);
+}
+.dark-mode .submit-button{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.174);
+    color: white;
 }
 .dark-mode .easter{
     background:  #928dab; 
