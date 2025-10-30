@@ -120,6 +120,7 @@
 .project-techStack img{
     height: 30px;
     width: 30px;
+    border-radius: 0;
 }
 .placeholder-line{
     margin: 5%;
