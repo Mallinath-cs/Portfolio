@@ -162,6 +162,25 @@ form button:hover{
     color: white;
     cursor: pointer;
     user-select: none;
+    background: linear-gradient(90deg,
+    red, orange, yellow, green, cyan, blue, violet, red
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowShift 4s linear infinite, glowPulse 1.5s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes glowPulse {
+  from { text-shadow: 0 0 10px rgba(255,255,255,0.4); }
+  to { text-shadow: 0 0 20px rgba(255,255,255,0.8); }
 }
 .dark-mode form{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
