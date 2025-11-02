@@ -8,7 +8,9 @@ import Home from './Pages/Home/Home';
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
-  
+  document.fonts.ready.then(() => {
+  document.body.classList.add('fonts-loaded');
+});
     useEffect(() => {
       const timer = setTimeout(() => {
         setShowWelcome(false);
