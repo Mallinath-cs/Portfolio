@@ -7,6 +7,9 @@ html, body {
   background: #000;
   min-height: 100vh;
 }
+body:not(.fonts-loaded) {
+  visibility: hidden;
+}
 .container {
     position: fixed;
     width: 100vw;
