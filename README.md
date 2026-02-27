@@ -1,5 +1,5 @@
-<h1 align="center">Portfolio Website</h1>
-<h3 align="center">A modern, responsive, and minimal portfolio website featuring smooth animations and an interactive Easter egg game (playable on desktop only).</h3>
+<h1 align="center">NoteMind AI</h1>
+<h3 align="center">A full-stack Note Taking Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). Users can sign up, log in, and securely create, edit, delete, and search notes. The app also features an integrated AI-powered summarization tool that automatically generates concise summaries of notes for better productivity.</h3>
 
 ### Built with 
 - React.js, Javascript, Html, CSS. 
