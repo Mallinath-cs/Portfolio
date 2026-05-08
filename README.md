@@ -1,5 +1,5 @@
-<h1 align="center">NoteMind AI</h1>
-<h3 align="center">A full-stack Note Taking Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). Users can sign up, log in, and securely create, edit, delete, and search notes. The app also features an integrated AI-powered summarization tool that automatically generates concise summaries of notes for better productivity.</h3>
+<h1 align="center">Portfolio</h1>
+<h3 align="center">An interactive and visually engaging portfolio website built using React.js, JavaScript, HTML, and CSS. The project features smooth animations with Framer Motion, buttery-smooth scrolling using Lenis Scroll, and immersive Lottie Animations to create a modern user experience. It also includes a fun desktop-exclusive “Find the Hidden Item” mini-game that encourages users to explore the website interactively.</h3>
 
 ### Built with 
 - React.js, Javascript, Html, CSS. 
