@@ -9,7 +9,7 @@
   Best viewed on Chrome, Edge, Brave on Desktops and Chrome on Mobiles
 </p>
 <p align="center">
-  🔗 <a href="https://mallinath-portfolio.netlify.app/">Live Demo</a>
+  🔗 <a href="https://mallinath.online/">Live Demo</a>
 </p>
 <img alt="Hero-desktop" src="https://github.com/user-attachments/assets/40e3a5ea-60f5-4815-b6d7-411fbf5e88c0" />
 
